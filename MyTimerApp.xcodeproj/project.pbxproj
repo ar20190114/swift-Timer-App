@@ -14,6 +14,7 @@
 		F3AE29452977C39F006DB52E /* MyTimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE29442977C39F006DB52E /* MyTimerAppTests.swift */; };
 		F3AE294F2977C39F006DB52E /* MyTimerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE294E2977C39F006DB52E /* MyTimerAppUITests.swift */; };
 		F3AE29512977C39F006DB52E /* MyTimerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE29502977C39F006DB52E /* MyTimerAppUITestsLaunchTests.swift */; };
+		F3AE295E2977C5F5006DB52E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE295D2977C5F5006DB52E /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F3AE294A2977C39F006DB52E /* MyTimerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTimerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AE294E2977C39F006DB52E /* MyTimerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimerAppUITests.swift; sourceTree = "<group>"; };
 		F3AE29502977C39F006DB52E /* MyTimerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3AE295D2977C5F5006DB52E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F3AE29362977C39F006DB52E /* Assets.xcassets */,
 				F3AE29382977C39F006DB52E /* MyTimerApp.entitlements */,
 				F3AE29392977C39F006DB52E /* Preview Content */,
+				F3AE295D2977C5F5006DB52E /* SettingView.swift */,
 			);
 			path = MyTimerApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AE295E2977C5F5006DB52E /* SettingView.swift in Sources */,
 				F3AE29352977C39D006DB52E /* ContentView.swift in Sources */,
 				F3AE29332977C39D006DB52E /* MyTimerAppApp.swift in Sources */,
 			);
